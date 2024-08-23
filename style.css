@@ -1,0 +1,89 @@
+nav{
+    z-index: 999;
+    font-family: "Grey Qo", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    list-style-type: none;
+    
+    
+}
+
+
+body{
+    background:linear-gradient(transparent, lightpink), url(./media/footer\ stupenda.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+
+.aforisma{
+    color: rgba(0, 0, 0, 0.752);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family:"Grey Qo", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.nomenegozio{
+    color: rgba(0, 0, 0, 0.752);
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    font-family:"Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+}
+    
+
+.immaginisection1{
+    background-position: center;
+    background-size: cover;
+    border-radius: 1px;
+    
+   
+}
+
+.footer-custom{
+        height: 300px;
+        background-image: url(./media/footer.jpg);
+        background-position: center;
+        background-size: cover;
+        color: aqua;
+       
+    }
+
+
+
+.staff{
+    font-family: "Grey Qo", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    list-style-type: none;  
+}
+
+
+.faq{
+    display: flex;
+    justify-content: center;
+    font-family: "Grey Qo", cursive;
+    font-weight: 300;
+    font-size: 50px;
+    background-color: lightpink;
+}
+
+
+
+
+@media screen and( max-width: 670px){
+    h1{
+        font-size: 2rem;
+    }
+}
