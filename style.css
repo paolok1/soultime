@@ -3,7 +3,7 @@ nav{
     font-family: "Grey Qo", cursive;
     font-weight: 300;
     font-style: normal;
-    font-size: 30px;
+    font-size: 40px;
     list-style-type: none;
     
     
@@ -11,10 +11,11 @@ nav{
 
 
 body{
-    background:linear-gradient(transparent, lightpink), url(./media/footer\ stupenda.png);
+    background:linear-gradient(transparent, white), url(./media/footer\ stupenda.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
 
     
 }
@@ -22,24 +23,32 @@ body{
 .aforisma{
     color: rgba(0, 0, 0, 0.752);
     display: flex;
-    justify-content: end;
-    align-items: end;
     font-family:"Grey Qo", cursive;
     font-weight: 300;
     font-style: normal;
-    font-size: 40px;
+    font-size: 35px;
+ 
 }
+
+   
+header{
+height: 70vh;
+}   
+    
+    
+   
 
 .nomenegozio{
     color: rgba(0, 0, 0, 0.752);
     display: flex;
-    justify-content: space-around;
-    /* text-align: center; */
+    justify-content: space-between;
     font-family:"Grey Qo", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 150px;
+    font-size: 200px;
+    padding-top: 300px;
 }
+    
     
 
 .immaginisection1{
@@ -52,10 +61,10 @@ body{
 
 .footer-custom{
         height: 300px;
-        background-image: url(./media/footer.jpg);
+        background: linear-gradient(transparent, black), url(./media/footer.jpg);
         background-position: center;
         background-size: cover;
-        color: aqua;
+        
        
     }
 
@@ -77,13 +86,35 @@ body{
     font-weight: 300;
     font-size: 50px;
     background-color: lightpink;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.social{
+    padding-top: 200px;
+    padding-left: 250px;
+}
+.info{
+    padding-bottom: 150px;
+}
+
+.info2{
+    padding-top: 200px;
 }
 
 
 
 
+
+
+
 @media screen and( max-width: 670px){
-    h1{
+    nav{
         font-size: 2rem;
     }
+section{
+    width: 30rem;
+}
+
+
 }
