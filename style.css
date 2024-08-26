@@ -3,66 +3,49 @@ nav{
     font-family: "Grey Qo", cursive;
     font-weight: 300;
     font-style: normal;
-    font-size: 30px;
+    font-size: 40px;
     list-style-type: none;
-    
-    
 }
 
-
 body{
-    background:linear-gradient(transparent, lightpink), url(./media/footer\ stupenda.png);
+    background:linear-gradient(transparent, white), url(./media/footer\ stupenda.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-.row-header {
-    height: 100vh;
-}
-
 .aforisma{
     color: rgba(0, 0, 0, 0.752);
-    display: flex;
-    justify-content: end;
-    align-items: end;
     font-family:"Grey Qo", cursive;
     font-weight: 300;
     font-style: normal;
     font-size: 3rem;
 }
-
+  
+header{
+    height: 70vh;
+}   
+    
 .nomenegozio{
     margin-top: 10rem;
     color: rgba(0, 0, 0, 0.752);
-    /* display: flex;
-    justify-content: space-around;
-    /* text-align: center; */
     font-family:"Grey Qo", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 150px; 
-}
-    
+}   
 
 .immaginisection1{
     background-position: center;
     background-size: cover;
     border-radius: 1px;
-    
-   
 }
 
 .footer-custom{
-        height: 300px;
-        background-image: url(./media/footer.jpg);
-        background-position: center;
-        background-size: cover;
-        color: aqua;
-       
-    }
-
-
+    background: linear-gradient(transparent, black), url(./media/footer.jpg);
+    background-position: center;
+    background-size: cover;  
+}
 
 .staff{
     font-family: "Grey Qo", cursive;
@@ -72,7 +55,6 @@ body{
     list-style-type: none;  
 }
 
-
 .faq{
     display: flex;
     justify-content: center;
@@ -80,10 +62,19 @@ body{
     font-weight: 300;
     font-size: 50px;
     background-color: lightpink;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
 }
 
 @media screen and (max-width: 670px) {
-    .row-header {
-        height: auto;
+    .nomenegozio {
+        font-size: 7.5rem;
+    }
+    .aforisma {
+        font-size: 2rem;
     }
 }
