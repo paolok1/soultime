@@ -15,8 +15,10 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
 
-    
+.row-header {
+    height: 100vh;
 }
 
 .aforisma{
@@ -27,18 +29,19 @@ body{
     font-family:"Grey Qo", cursive;
     font-weight: 300;
     font-style: normal;
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .nomenegozio{
+    margin-top: 10rem;
     color: rgba(0, 0, 0, 0.752);
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     /* text-align: center; */
     font-family:"Grey Qo", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 150px;
+    font-size: 150px; 
 }
     
 
@@ -79,11 +82,8 @@ body{
     background-color: lightpink;
 }
 
-
-
-
-@media screen and( max-width: 670px){
-    h1{
-        font-size: 2rem;
+@media screen and (max-width: 670px) {
+    .row-header {
+        height: auto;
     }
 }
