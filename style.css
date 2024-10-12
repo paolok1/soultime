@@ -1,89 +1,85 @@
 nav{
-    z-index: 999;
-    font-family: "Grey Qo", cursive;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 40px;
-    list-style-type: none;
-}
-
-body{
-    background:linear-gradient(transparent, white), url(./media/footer\ stupenda.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-
-/* header */
-
-
-.aforisma{
-    color: rgba(0, 0, 0, 0.752);
-    font-family:"Grey Qo", cursive;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 3rem;
-}
-  
-header{
-    min-height: 70vh;
-}   
+    background:linear-gradient(transparent, white, white);
+        z-index: 999;
+        font-family: "Grey Qo", cursive;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 30px;
+        list-style-type: none;
+    }
     
-.nomenegozio{
-    margin-top: 10rem;
-    color: rgba(0, 0, 0, 0.752);
-    font-family:"Grey Qo", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 150px; 
-} 
+    body{
+        background:linear-gradient(transparent, white), url(./media/footer\ stupenda.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .aforisma{
+  
+        justify-content: end;
+        color: rgba(0, 0, 0, 0.752);
+        font-family:"Grey Qo", cursive;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+    }
 
-/* fine header */
+    
+    header{
+        min-height: 70vh;
+    }   
+        
+    .nomenegozio{
+        margin-top: 7rem;
+        color: rgba(0, 0, 0, 0.752);
+        font-family:"Grey Qo", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 150px; 
+    } 
+    
+    /* fine header */
+    
+    
+    .immaginisection1{
+        background-position: center;
+        background-size: cover;
+        border-radius: 1px;
+    }
+    
+    .footer-custom{
+        background: linear-gradient(transparent, black), url(./media/footer.jpg);
+        background-position: center;
+        background-size: cover;  
+    }
+    
+    .staff{
+        font-family: "Grey Qo", cursive;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 30px;
+        list-style-type: none;  
+    }
+    
 
+    
+    .faq{
+        display: flex;
+        justify-content: center;
+        font-family: "Grey Qo", cursive;
+        font-weight: 300;
+        font-size: 30px;
+        background-color: lightpink;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
 
-.immaginisection1{
-    background-position: center;
-    background-size: cover;
-    border-radius: 1px;
-}
-
-.footer-custom{
-    background: linear-gradient(transparent, black), url(./media/footer.jpg);
-    background-position: center;
-    background-size: cover;  
-}
-
-/* sezione chi siamo */
-
-.staff{
-    font-family: "Grey Qo", cursive;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 30px;
-    list-style-type: none;  
-}
-
-/* fine sezione chi siamo */
-
-/* sezione faq */
-
-.faq{
-    display: flex;
-    justify-content: center;
-    font-family: "Grey Qo", cursive;
-    font-weight: 300;
-    font-size: 50px;
-    background-color: hsl(351, 100%, 86%);
-    margin-top: 25px;
-    margin-bottom: 0;
-}
-
-/* fine sezione faq */
-
-ul {
+    
+    ul {
     list-style-type: none;
 }
+    
 
 /* sezione contatti */
 
@@ -117,7 +113,7 @@ ul {
 }
 
 .icone{
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Grey Qo", cursive;
     display: flex;
     justify-content: center;
@@ -136,6 +132,11 @@ ul {
 }
 
 /* fine sezione form */
+
+/* footer */
+.finepagina{
+    font-size: 10px;
+}
 
 
 /* media query */
@@ -157,7 +158,7 @@ ul {
 
     }
 
-
 }
  
- /* fine media query */
+ /* fine media query */     
+
